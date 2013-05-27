@@ -1,0 +1,24 @@
+{
+  "name": "MEANTODO",
+  "version": "0.0.0",
+  "description": "MEAN TODO",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~3.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eddiezane/MEAN-TODO.git"
+  },
+  "author": "Eddie Zaneski",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "33b3c235be72b38ade56ebefe81a9bfccc661e7e",
+  "bugs": {
+    "url": "https://github.com/eddiezane/MEAN-TODO/issues"
+  }
+}
