@@ -1,4 +1,5 @@
-var app = require('express')()
+var express = require('express')
+  , app = express()
   , port = 3000;
 
 if (process.env.NODE_ENV == 'production')
@@ -10,4 +11,6 @@ app.get('/', function(req, res){
   res.sendfile(__dirname + '/views/index.html');
 });
 
-app.listen(3000);
+app.listen(port);
+console.log('app running on ' + port);
+
